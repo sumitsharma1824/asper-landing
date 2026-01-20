@@ -568,7 +568,7 @@ body.dark .hero-content h1 {
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
-  margin-right: 15px;
+  margin-right: 32px;
 }
 
 .hamburger span {
