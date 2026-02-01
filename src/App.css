@@ -463,14 +463,14 @@ body.dark .hero-content h1 {
 
 }
 .front-page{
-  background-image: url("/do1.png");
+  background-image: url("../assets/do1.png");
   background-size: contain;
    background-position: center;
   background-repeat: no-repeat;
 }
 
 .card2 .front-page{
-  background-image: url("/do2.png");
+  background-image: url("../assets/do2.png");
   background-size: contain;
    background-position: center;
   background-repeat: no-repeat;
