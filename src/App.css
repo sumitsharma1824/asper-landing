@@ -28,7 +28,7 @@ body{
 
 .nav img:hover{
   width:4.4rem;
-  height: 3.8rem;
+  height: 3.4rem;
 }
 
 .compbtn{
@@ -36,14 +36,14 @@ body{
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  height: 3rem;
+  height: 4rem;
 }
 .joinBtn{
   display: flex;
   width: 15%;
   justify-content: center;
   align-items: center;
-  height: 3rem;
+  height: 4rem;
   color: black;
   background-color: rgb(205, 27, 27);
   border-radius: 1rem;
@@ -55,7 +55,7 @@ body{
   width: 100%;
   justify-content: center;
   align-items: center;
-  height: 3rem;
+  height: 4rem;
   color: black;
   background-color: rgb(205, 27, 27);
   border-radius: 1rem;
@@ -70,7 +70,7 @@ body{
   background-color: black;
   width: 7rem;
   color: white;
-  height: 3rem;
+  height: 4rem;
   border-radius: 1rem;
   transition: 0.6s;
   border: 2px solid rgb(84, 70, 70);
@@ -279,7 +279,7 @@ transition: transform 0.3s;
   letter-spacing: 1px;
 }
 .contact{
-  height: 23rem;
+  height: 24rem;
   width: 27rem;
   background-color: white;
   margin-top: 130px;
@@ -306,7 +306,7 @@ transition: transform 0.3s;
 }
 
 .contact-row input {
-  height: 3rem;
+  height: 4rem;
   border-radius: 20px;
   border: 2px solid black;
   padding: 0 12px;
@@ -343,7 +343,7 @@ transition: transform 0.3s;
   width: 60px;
   border-radius: 50%;
   background-color: black;
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-top: 0.5rem;
 }
 
@@ -430,6 +430,19 @@ body.dark .hero-content h1 {
 }
 
 /* domain */
+
+.heading{
+  display: flex;
+}
+.red{
+  font-size: 4rem;
+  color: red;
+  margin-left: 14rem;
+}
+.white{
+  font-size: 4rem;
+
+}
 .domain{
   perspective: 3000px;
   height: 100vh;
@@ -475,18 +488,39 @@ body.dark .hero-content h1 {
    background-position: center;
   background-repeat: no-repeat;
 }
-.card-info{
-  position: absolute;
-  bottom: 50px;
-  left: 60px;
-  text-shadow: 2px 2px 6px rgba(255, 0, 0, 0.6);
-  text-align: center;
 
+.card3 .front-page{
+  background-image: url("../assets/do3.png");
+  background-size: contain;
+   background-position: center;
+  background-repeat: no-repeat;
 }
+
+.card4 .front-page{
+  background-image: url("../assets/do4.png");
+  background-size: contain;
+   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card5 .front-page{
+  background-image: url("../assets/do5.png");
+  background-size: contain;
+   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card6 .front-page{
+  background-image: url("../assets/do6.png");
+  background-size: contain;
+   background-position: center;
+  background-repeat: no-repeat;
+}
+
 .card-title{
   font-size: 2rem;
-  font-weight: bold;
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 .card-subtitle{
   font-size: 1.2rem;
@@ -496,26 +530,106 @@ body.dark .hero-content h1 {
 }
 
 .back-page{
-  background-color: #1e272e;
-  display: flex;
+  background-color: #0d0d0d;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   transform: rotateY(180deg);
-
+  /* position: relative; */
+  
 
 }
+
+.backpage-image-container {
+  height: 130px;
+  width: 130px;
+  margin-left: 31%;
+  margin-top: 25px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+ box-shadow:
+    0 0 10px rgba(255, 0, 60, 0.6),
+    0 0 25px rgba(255, 0, 60, 0.5),
+    0 0 45px rgba(255, 0, 60, 0.4);
+  background-image: url("../assets/nishant.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.backimage {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(1px);
+
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* LinkedIn Icon */
+.backpage-icons {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+
+  font-size: 26px;
+  color: #0cff3d;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* 🔥 HOVER TRIGGER */
+.backpage-image-container:hover .backimage {
+  opacity: 1;
+  
+}
+
+.backpage-image-container:hover .backpage-icons {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 .card-content{
   text-align: center;
   padding: 20px;
   max-width: 300px;
 }
 .card-content h3{
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin-bottom: 15px;
 
 }
+.head-name{
+  height: 50px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  
+}
+.linkedin-icon {
+  color: #ff003c; 
+  font-size: 26px;
+  text-shadow: 0 0 12px #ff003c;
+}
+
+.reed{
+  color: red;
+  font-size: 1.6rem;
+  margin-left: 165px;
+}
+.whiite{
+  color: white;
+  font-size: 1.6rem;
+}
 .card-description{
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 20px;
   line-height: 1.6;
 }
