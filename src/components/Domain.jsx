@@ -36,7 +36,10 @@ const Domain = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="linkedin-icon"
+                    />
                   </a>
                 </div>
               </div>
@@ -79,7 +82,10 @@ const Domain = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon"  />
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="linkedin-icon"
+                    />
                   </a>
                 </div>
               </div>
@@ -114,7 +120,10 @@ const Domain = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="linkedin-icon"
+                    />
                   </a>
                 </div>
               </div>
@@ -153,7 +162,10 @@ const Domain = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="linkedin-icon"
+                    />
                   </a>
                 </div>
               </div>
@@ -188,7 +200,10 @@ const Domain = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="linkedin-icon"
+                    />
                   </a>
                 </div>
               </div>
@@ -224,7 +239,10 @@ const Domain = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="linkedin-icon"
+                    />
                   </a>
                 </div>
               </div>
@@ -238,6 +256,47 @@ const Domain = () => {
                 communication. Explore applications in smart homes, healthcare,
                 and automation. Integrate hardware with cloud platforms. Build
                 innovative solutions for real-world problems.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="domain">
+        <div className="card card7">
+          <div className="front-page">
+            <div className="card-info">
+              {/* <h2 className="card-title"> Web development</h2> */}
+              <p className="card-title">Corporate Relation</p>
+            </div>
+          </div>
+
+          <div className="back-page">
+            <div className="backpage-image-container">
+              <div className="backimage">
+                <div className="backpage-icons">
+                  <a
+                    href="https://www.linkedin.com/company/theasperteam/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLinkedin}
+                      className="linkedin-icon"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="card-content">
+              <h3>Corporate Relation</h3>
+              <div className="card-description">
+                Build strong connections between the club and industry partners.
+                Coordinate with companies for internships, workshops, and
+                placements. Manage sponsorships, collaborations, and
+                professional tie-ups. Communicate with recruiters and corporate
+                representatives. Organize corporate talks, networking events,
+                and guest sessions. 
               </div>
             </div>
           </div>

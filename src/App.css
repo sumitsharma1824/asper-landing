@@ -516,7 +516,12 @@ body.dark .hero-content h1 {
    background-position: center;
   background-repeat: no-repeat;
 }
-
+.card7 .front-page{
+  background-image: url("../assets/do7.png");
+  background-size: contain;
+   background-position: center;
+  background-repeat: no-repeat;
+}
 .card-title{
   font-size: 2rem;
   margin-top: 20px;
@@ -583,7 +588,7 @@ body.dark .hero-content h1 {
   transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
-/* 🔥 HOVER TRIGGER */
+
 .backpage-image-container:hover .backimage {
   opacity: 1;
   
